@@ -88,7 +88,7 @@ ggplot(data = diamonds.sample) +
 # multiple geoms (point & smooth)
 
 ggplot(data = diamonds.sample) +
-  geom_point(mapping = aes(x = carat, y = price, color=cut), alpha=0.1) + 
+  geom_point(mapping = aes(x = carat, y = price, color=cut), alpha=0.3) + 
   geom_smooth(mapping = aes(x = carat, y = price, color=cut), se=FALSE)
 
 ## Bonus
